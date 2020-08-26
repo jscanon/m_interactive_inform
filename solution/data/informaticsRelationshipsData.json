@@ -1,0 +1,509 @@
+﻿{
+  "type": "Graph",
+  "label": "Relación de la informática con las diferentes ciencias.",
+  "University": "Universidad Distrital Francisco Jos\u00e9 de Caldas.",
+  "CurricularProject": "Maestría en Ciencias de la información y las comunicaciones.",
+  "AcademicSpace": "Informática.",
+  "Teacher": "Alejandro Paolo Daza Corredor.",
+  "PresentedBy": "Cristhian Camilo López P\u00e9rez.",
+  "Purpose": "Establecer mediante una herramienta de programación, de forma creativa las posibles relaciones de la informática con otras disciplinas.",
+  "Description": "Usando como centro la informática, se describen las principales relaciones con las ciencias, estas últimas segmentadas según su clasificación.",
+  "nodes": [
+    {
+      "id": "00",
+      "label": "Informática.",
+      "properties": {
+        "principal": true,
+        "definition": "Disciplina o campo de estudio que abarca el conjunto de conocimientos, métodos y técnicas referentes al tratamiento automático de la información, junto con sus teorías y aplicaciones prácticas, con el fin de almacenar, procesar y transmitir datos e información en formato digital utilizando sistemas computacionales. Los datos son la materia prima para que, mediante su proceso, se obtenga como resultado información. Para ello, la informática crea y/o emplea sistemas de procesamiento de datos, que incluyen medios físicos (hardware) en interacción con medios lógicos (software) y las personas que los programan y/o los usan (humanware)."
+      }
+    },
+    {
+      "id": "01",
+      "label": "Ciencias Formales",
+      "properties": {
+        "definition": "Conjuntos sistemáticos de conocimientos racionales y coherentes.",
+        "members": [ "1. Matemáticas.", "2. Lógica.", "3. Ciencias de la computación." ]
+      }
+    },
+    {
+      "id": "011",
+      "label": "Matemáticas",
+      "properties": {
+        "definition": "Estudia las propiedades y relaciones entre entidades abstractas como números, figuras geométricas, iconos, glifos, o símbolos en general."
+      }
+    },
+    {
+      "id": "012",
+      "label": "Lógica",
+      "properties": {
+        "definition": "Estudia los principios de la demostración y la inferencia válida, las falacias, las paradojas y la noción de verdad."
+      }
+    },
+    {
+      "id": "013",
+      "label": "Ciencias de la Computación",
+      "properties": {
+        "definition": "Estudian los fundamentos teóricos de la información y el cómputo, junto con técnicas prácticas para la implementación y aplicación de estos fundamentos teóricos."
+      }
+    },
+    {
+      "id": "02",
+      "label": "Ciencias Naturales",
+      "properties": {
+        "definition": "Tienen por objeto el estudio de la naturaleza, siguiendo la modalidad del método científico conocida como método empírico-analítico.",
+        "members": [ "1. Ciencias Físicas.", "2. Ciencias de la Tierra.", "3. Ciencias de la Vida." ]
+      }
+    },
+    {
+      "id": "021",
+      "label": "Ciencias Físicas",
+      "properties": {
+        "definition": "Estudia los sistemas no vivos",
+        "members": [ "1. Física.", "2. Química.", "3. Astronomía.", "4. Geología." ]
+      }
+    },
+    {
+      "id": "0211",
+      "label": "Física",
+      "properties": {
+        "definition": "Estudia los componentes fundamentales del Universo, la energía, la materia, el espacio-tiempo y las interacciones fundamentales."
+      }
+    },
+    {
+      "id": "0212",
+      "label": "Química",
+      "properties": {
+        "definition": "Estudia la composición, estructura y propiedades de la materia, así como los cambios que esta experimenta durante las reacciones químicas y su relación con la energía."
+      }
+    },
+    {
+      "id": "0213",
+      "label": "Astronomía",
+      "properties": {
+        "definition": "Se ocupa del estudio de los cuerpos celestes del universo, incluidos los planetas y sus satélites, los cometas y meteoroides, las estrellas y la materia interestelar, los sistemas de materia oscura, gas y polvo llamados galaxias y los cúmulos de galaxias; por lo que estudia sus movimientos y los fenómenos ligados a ellos."
+      }
+    },
+    {
+      "id": "0214",
+      "label": "Geología",
+      "properties": {
+        "definition": "Estudia la composición y estructura tanto interna como superficial del planeta Tierra, y los procesos por los cuales ha ido evolucionando a lo largo del tiempo geológico."
+      }
+    },
+    {
+      "id": "022",
+      "label": "Ciencias de la Tierra",
+      "properties": {
+        "definition": "Estudian la estructura, morfología, evolución y dinámica del planeta Tierra.",
+        "members": [ "1. Geografía.", "2. Meteorología.", "3. Geología." ]
+      }
+    },
+    {
+      "id": "0221",
+      "label": "Geografía",
+      "properties": {
+        "definition": "Trata de la descripción o de la representación gráfica de la Tierra."
+      }
+    },
+    {
+      "id": "0222",
+      "label": "Meteorología",
+      "properties": {
+        "definition": "Es la ciencia interdisciplinaria, de la física de la atmósfera, que estudia el estado del tiempo, el medio atmosférico, los fenómenos producidos y las leyes que lo rigen."
+      }
+    },
+    {
+      "id": "023",
+      "label": "Ciencias de la Vida",
+      "properties": {
+        "definition": "Comprenden todos los campos de la ciencia que estudian los seres vivos, como las plantas, animales y seres humanos.",
+        "members": [ "1. Biología.", "2. Medicina.", "3. Genética." ]
+      }
+    },
+    {
+      "id": "0231",
+      "label": "Biología",
+      "properties": {
+        "definition": "Estudia los procesos naturales​ de los organismos vivos,​ considerando su anatomía, fisiología, evolución, desarrollo, distribución y relaciones."
+      }
+    },
+    {
+      "id": "0232",
+      "label": "Medicina",
+      "properties": {
+        "definition": "Dedicada al estudio de la vida, la salud, las enfermedades y la muerte del ser humano y/o animales no humanos, e implica ejercer tal conocimiento técnico para el mantenimiento y recuperación de la salud, aplicándolo a la prevención, diagnóstico y tratamiento de las enfermedades."
+      }
+    },
+    {
+      "id": "03",
+      "label": "Ciencias Humanas",
+      "properties": {
+        "definition": "Concepto epistemológico que designa a un extenso grupo de ciencias y disciplinas cuyo objeto es el ser humano en el aspecto de sus manifestaciones inherentemente humanas, esto es el lenguaje verbal en primer término,​ el arte y el pensamiento y, en general, la cultura y sus formaciones históricas.",
+        "members": [ "1. Filosofía.", "2. Ciencias de la Educación.", "3. Ciencias de la computación." ]
+      }
+    },
+    {
+      "id": "031",
+      "label": "Filosofía",
+      "properties": {
+        "definition": "Estudio de una variedad de problemas fundamentales acerca de cuestiones como la existencia, el conocimiento, la verdad, la moral, la belleza, la mente y el lenguaje."
+      }
+    },
+    {
+      "id": "032",
+      "label": "Ciencias de la Educación",
+      "properties": {
+        "definition": "Conjunto de disciplinas interesadas en el estudio científico de los distintos aspectos de la educación en sociedades y culturas determinadas."
+      }
+    },
+    {
+      "id": "033",
+      "label": "Psicología",
+      "properties": {
+        "definition": "Trata el estudio y el análisis de la conducta y los procesos mentales de los individuos y de grupos humanos en distintas situaciones, cuyo campo de estudio abarca todos los aspectos de la experiencia humana​ y lo hace para fines tanto de investigación como docentes y laborales, entre otros."
+      }
+    },
+    {
+      "id": "04",
+      "label": "Ciencias Aplicadas",
+      "properties": {
+        "definition": "Utilizan el conocimiento científico de una o varias ramas de la ciencia para resolver problemas prácticos."
+      }
+    },
+    {
+      "id": "041",
+      "label": "Ingeniería",
+      "properties": {
+        "definition": "conjunto de conocimientos científicos y tecnológicos para la innovación, invención, desarrollo y mejora de técnicas y herramientas para satisfacer las necesidades y resolver problemas tanto de las personas como de la sociedad."
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "00",
+      "target": "011",
+      "properties": {
+        "GeneralRelationships": [ "1. Automatizar ciertos procesos de cálculo.", "2. Reflejar, retratar y exponer métodos matemáticos." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "012",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Uso efectivo del computador como instrumento para la solución de problemas lógicos.",
+          "2. Lógica de la computación, entendiendo por tal el estudio de las relaciones de fundamentación de la lógica con respecto a la informática, tanto en el plano de la teoría como en el de la técnica."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "013",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Cómputo Científico.",
+          "2. Trading Algorítmico.",
+          "3. Simulación de Procesos.",
+          "4. Inteligencia Artificial."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "01",
+      "target": "011",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias formales." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "01",
+      "target": "012",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias formales." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "01",
+      "target": "013",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias formales." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "02",
+      "target": "021",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias naturales." ],
+        "type": "ScienceGroup    "
+      }
+    },
+    {
+      "source": "00",
+      "target": "0211",
+      "properties": {
+        "GeneralRelationships": [ "Está relacionada con la base tangible de la informática, que es el electromagnetismo y los diversos circuitos electrónicos (conexiones físicas) que hacen posible la parte virtual de la informática, sería similar a referirse a la relación entre el cerebro y la mente; la parte física es el cerebro y la parte virtual es la informática." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0212",
+      "properties": {
+        "GeneralRelationships": [ "Una relación importante que existe en la química con la informática es que en la química se busca la creación de nuevos materiales que sirvan de conductores para que se mejore la velocidad de los procesos informáticos y mejorar la memoria de los microchips." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0213",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Equipos modernos permiten la visualización de lo que hay mas allá de nuestro planeta.",
+          "2. Las Computadoras registran, guardan, abren, y ven todo lo que se encargue por ejemplo en una Agencia espacial como la NASA."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0214",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Adquisición de datos sísmicos.",
+          "2. Modelamiento de cuencas sedimentarias.",
+          "3. Sistemas de Información Geográfica (SIG)."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "021",
+      "target": "0211",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias físicas." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "021",
+      "target": "0212",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias físicas." ],
+        "type": "Subdivision"
+      }
+    },
+
+    {
+      "source": "021",
+      "target": "0213",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias físicas." ],
+        "type": "Subdivision"
+      }
+    },
+
+    {
+      "source": "021",
+      "target": "0214",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias físicas." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "02",
+      "target": "022",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias naturales." ],
+        "type": "ScienceGroup"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0221",
+      "properties": {
+        "GeneralRelationships": [ "Excepcionales posibilidades de aplicación al ámbito del análisis espacial y los Sistemas de Información Geográfica como tecnología de vinculación e integración se ha convertido en el principal medio proveedor de caminos para lograr las soluciones que demandan la gestión y planificación territorial actual." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0222",
+      "properties": {
+        "GeneralRelationships": [ "Facilita un resultado objetivo y automático, ya que simula situaciones futuras a través de sucesivas integraciones y operaciones físico-matemáticas." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "022",
+      "target": "0221",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias de la tierra." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "022",
+      "target": "0222",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias de la tierra." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "022",
+      "target": "0214",
+      "properties": {
+        "GeneralRelationShips": [ "Pertenece a las principales ciencias de la tierra." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "02",
+      "target": "023",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias naturales." ],
+        "type": "ScienceGroup"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0231",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Investigación y desarrollo de la infraestructura y sistemas de información y comunicaciones que requiere la biología molecular y la genética (Redes y bases de datos para el genoma, microarrays, etc.). (Informática aplicada a la biología molecular y la genética).",
+          "2. Computación que se aplica al entendimiento de cuestiones biológicas básicas, no necesariamente en el nivel molecular, mediante la modelización y simulación. (ecosistemas, modelos fisiológicos). (Informática y matemáticas aplicadas a la biología).",
+          "3. Desarrollo y utilización de sistemas computacionales basados en modelos y materiales biológicos. (Biochips, biosensores, computación basada en ADN, redes de neuronas, algoritmos genéticos). (Biología aplicada a la computación)."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "0232",
+      "properties": {
+        "GeneralRelationships": [ "Tiene relación en todas las áreas de la medicina, como en laboratorios de análisis clínicos, dispositivos electrónicos para hacer mediciones, PACS (archivos de imágenes), software de gestión hospitalaria, de manejo de turnos, de historias clínicas, bases de datos de pacientes, entre otros. Algunas de las relaciones más conocidas de este campo de la informática se encuentran en el diagnóstico por imagen, la telemedicina, los sistemas de gestión hospitalaria y registro clínico electrónico." ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "023",
+      "target": "0231",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias de la vida." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "023",
+      "target": "0232",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias de la vida." ],     
+        "bitrate": "39 mbit/s",
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "00",
+      "target": "031",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Cuestionamientos acerca de la naturaleza de la informática.",
+          "2. Caracterización Filosófica de la metodología de la informática.",
+          "3. Ética de la informática."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "032",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Uso de tecnologías, herramientas y recursos de las TIC pertinentes, variados y que apoyen la gestión en el aula.",
+          "2. Desarrollo de métodos innovadores en el uso de las TIC.",
+          "3. Desarrollo profesional docente continuo en relación con los avances tecnológicos.",
+          "4. Generar conocimiento que propongan cambios en los planes y currículos comprometido con el aprendizaje durante toda la vida."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "00",
+      "target": "033",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Los ordenadores y los programas son herramientas que se relacionan con los seres humanos. Esta relación conceptualizada como relación hombre-Computadora entra dentro del campo de la disciplina Ergonomía.",
+          "2. Uno de los avances científicos más interesantes de las últimas décadas ha sido el nacimiento de un nuevo campo de investigación de carácter interdisciplinario al que se ha llamado Ciencia Cognitiva."
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "03",
+      "target": "031",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias humanas." ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "03",
+      "target": "032",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias humanas" ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "03",
+      "target": "033",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias humanas" ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "03",
+      "target": "0221",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias humanas" ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "00",
+      "target": "041",
+      "properties": {
+        "GeneralRelationships": [
+          "1. Manejo de Gestión de proyectos.",
+          "2. Modelamiento sistemático.",
+          "3. Ingeniería de Software, Mecatrónica, de Sistemas, y afines"
+        ],
+        "type": "principalRelationShip"
+      }
+    },
+    {
+      "source": "04",
+      "target": "041",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias aplicadas" ],
+        "type": "Subdivision"
+      }
+    },
+    {
+      "source": "04",
+      "target": "0232",
+      "properties": {
+        "GeneralRelationships": [ "Pertenece a las principales ciencias aplicadas" ],
+        "type": "Subdivision"
+      }
+    }
+  ]
+}
